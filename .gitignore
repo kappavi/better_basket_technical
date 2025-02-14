@@ -169,3 +169,32 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore log files
+*.log
+
+# Ignore environment variable files
+.env
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore OS generated files
+**.DS_Store
+Thumbs.db
+
+# Ignore Python cache directories
+__pycache__/
+**/__pycache__/
+
+# Ignore data directories
+data/grocery_store_a/
+data/grocery_store_b/
+
+# dont include the pdf document 
+.pdf 
