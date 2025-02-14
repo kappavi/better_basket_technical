@@ -33,6 +33,9 @@ Note: the given json files are not included in this repository since they are ra
    ```bash
    pip install -r requirements.txt
 # Process
+### utils.py
+
+I included a collection of utility functions in `utils.py` that streamline the data extraction and comparison processes. They are meant for handling common tasks such as cleaning and formatting product names and prices, performing fuzzy matching, and calculating unit prices. All of these functions are thoroughly unit tested in `util_tests.py`. Each function and test is commented and explained in the respective files.
 
 ### Grocery Store B - Data Cleaning
 
