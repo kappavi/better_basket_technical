@@ -193,8 +193,8 @@ __pycache__/
 **/__pycache__/
 
 # Ignore data directories
-/data/grocery_store_a/
-/data/grocery_store_b/
+/data/grocery_store_a.json
+/data/grocery_store_b.json
 
 # dont include the pdf document 
-.pdf 
+*.pdf 
