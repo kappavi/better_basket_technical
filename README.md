@@ -119,3 +119,6 @@ After running the comparison script, the results are saved as a JSON file (e.g.,
 - **Other Enhancements:**  
   Using some sort of implementation of candidate filtering techniques, such as locality-sensitive hashing (LSH) or embedding-based similarity search could likely narrow down the pool of potential matches, thereby reducing the number of expensive fuzzy comparisons required. Perhaps using other data structures like inverted indexes could further streamline lookup times and improve overall performance.
 
+- **Standardizing Prices to Cents:**  
+  I'm aware that in financial markets, particularly on Wall Street, it's common practice to represent prices in the smallest currency unit (such as cents) rather than in floating-point dollars. This approach could maybe help standardize prices, reduce rounding errors, and simplify arithmetic operations when dealing with multiple currencies or high-frequency transactions. This is a concept that could be implemented in this system in the future as well, maybe given the fact that more datasets are used across difference currencies and more analysis is performed.
+
