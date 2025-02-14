@@ -32,6 +32,14 @@ Note: the given json files are not included in this repository since they are ra
 3. **Install Depdendencies**
    ```bash
    pip install -r requirements.txt
+
+4. **Run it yourself**
+   If you'd like to run the analysis yourself:
+    ```bash
+   python grocery_a_analysis.py
+   python grocery_b_analysis.py
+   python comparison.py
+   
 # Process
 ### utils.py
 
