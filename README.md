@@ -34,7 +34,7 @@ Note: the given json files are not included in this repository since they are ra
    pip install -r requirements.txt
 
 4. **Run it yourself**
-   If you'd like to run the analysis yourself:
+   If you'd like to create the cleaned data and output yourself:
     ```bash
    python grocery_a_analysis.py
    python grocery_b_analysis.py
